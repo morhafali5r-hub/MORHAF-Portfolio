@@ -512,8 +512,28 @@
                 <h2 class="section-title" data-i18n="intel_title">Smart Systems</h2>
             </div>
             
-            <div class="projects-grid">
-                <div class="glass-panel project-card light-sweep" style="border-color: rgba(222, 219, 200, 0.3); box-shadow: 0 0 30px rgba(222, 219, 200, 0.05);">
+            <div style="display: flex; flex-direction: column; gap: clamp(2rem, 4vw, 4rem); max-width: 850px; margin: 0 auto;">
+                <div class="glass-panel project-card light-sweep" style="border-color: rgba(222, 219, 200, 0.3); box-shadow: 0 0 30px rgba(222, 219, 200, 0.05); min-height: 380px;">
+                    <div>
+                        <div class="project-meta">
+                            <span class="project-cat" data-i18n="intel_cat" style="color: #DEDBC8;">Digital Product</span>
+                            <span class="project-num">
+                                <svg viewBox="0 0 24 24" style="width:24px; height:24px; fill:#DEDBC8;">
+                                    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="project-body">
+                            <h3 data-i18n="intel_ai_title" style="color: #DEDBC8;">MORHAF AI Neural Chat</h3>
+                            <p data-i18n="intel_ai_desc">An ultra-premium cognitive conversational interface engineered with adaptive neural processing, localized intelligence models, and a sleek cinematic console layout.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="https://morhafali5r-hub.github.io/MORHAF-Intelligence-AI/" target="_blank" class="visit-btn" data-i18n="intel_ai_btn" style="border-color: #DEDBC8; color: #DEDBC8;">Launch AI Interface &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="glass-panel project-card light-sweep" style="border-color: rgba(222, 219, 200, 0.3); box-shadow: 0 0 30px rgba(222, 219, 200, 0.05); min-height: 380px;">
                     <div>
                         <div class="project-meta">
                             <span class="project-cat" data-i18n="intel_cat" style="color: #DEDBC8;">Digital Product</span>
@@ -522,15 +542,15 @@
                             </span>
                         </div>
                         <div class="project-body">
-                            <h3 style="color: #DEDBC8;">MORHAF QR Intelligence</h3>
-                            <p data-i18n="intel_desc">An ultra-premium, cinematic QR generator and smart decoder. Features include micro-compression, local cloud vault storage, and intelligent payload detection.</p>
+                            <h3 data-i18n="intel_qr_title" style="color: #DEDBC8;">MORHAF QR Intelligence</h3>
+                            <p data-i18n="intel_qr_desc">An ultra-premium, cinematic QR generator and smart decoder. Features include micro-compression, local cloud vault storage, and intelligent payload detection.</p>
                         </div>
                     </div>
                     <div>
-                        <a href="https://morhafali5r-hub.github.io/MORHAF-Intelligence-QR/" target="_blank" class="visit-btn" data-i18n="intel_btn" style="border-color: #DEDBC8; color: #DEDBC8;">Launch System &rarr;</a>
+                        <a href="https://morhafali5r-hub.github.io/MORHAF-Intelligence-QR/" target="_blank" class="visit-btn" data-i18n="intel_qr_btn" style="border-color: #DEDBC8; color: #DEDBC8;">Launch System &rarr;</a>
                     </div>
                 </div>
-                </div>
+            </div>
         </div>
     </section>
 
@@ -700,8 +720,13 @@
                 visit_btn: "Visit Project &rarr;",
                 
                 intel_num: "03 / INTELLIGENCE", intel_title: "Smart Systems",
-                intel_cat: "Digital Product", intel_desc: "An ultra-premium, cinematic QR generator and smart decoder. Features include micro-compression, local cloud vault storage, and intelligent payload detection.",
-                intel_btn: "Launch System &rarr;",
+                intel_cat: "Digital Product", 
+                intel_ai_title: "MORHAF AI Neural Chat",
+                intel_ai_desc: "An ultra-premium cognitive conversational interface engineered with adaptive neural processing, localized intelligence models, and a sleek cinematic console layout.",
+                intel_ai_btn: "Launch AI Interface &rarr;",
+                intel_qr_title: "MORHAF QR Intelligence",
+                intel_qr_desc: "An ultra-premium, cinematic QR generator and smart decoder. Features include micro-compression, local cloud vault storage, and intelligent payload detection.",
+                intel_qr_btn: "Launch System &rarr;",
 
                 vfx_num: "04 / MOTION & FX", vfx_title: "VFX Engine Studio", vfx_status: "VFX Render Pipeline Active",
                 vfx_p1: "Working in After Effects and advanced visual layout platforms, I construct computational motion graphics, tracking arrays, and seamless spatial compositions.",
@@ -734,8 +759,13 @@
                 visit_btn: "زيارة المشروع &larr;",
                 
                 intel_num: "03 / الذكاء الرقمي", intel_title: "المنتجات والأدوات الذكية",
-                intel_cat: "منتج رقمي", intel_desc: "نظام توليد وتحليل QR سينمائي فائق الفخامة. يتضمن ميزات الضغط الدقيق، التخزين السحابي المحلي، والتعرف الذكي على البيانات.",
-                intel_btn: "تشغيل النظام &larr;",
+                intel_cat: "منتج رقمي", 
+                intel_ai_title: "منصة MORHAF للذكاء الاصطناعي",
+                intel_ai_desc: "واجهة محادثة عصبية فائقة التطور تعتمد على معالجة ذكية متكيفة، ونماذج إدراكية محلية، مع تصميم كونسول سينمائي انسيابي.",
+                intel_ai_btn: "إطلاق واجهة الذكاء &larr;",
+                intel_qr_title: "نظام MORHAF للرموز الذكية",
+                intel_qr_desc: "نظام توليد وتحليل QR سينمائي فائق الفخامة. يتضمن ميزات الضغط الدقيق، التخزين السحابي المحلي، والتعرف الذكي على البيانات.",
+                intel_qr_btn: "تشغيل النظام &larr;",
 
                 vfx_num: "04 / الحركة والمؤثرات", vfx_title: "استوديو المؤثرات البصرية", vfx_status: "مسار العرض (Render) الفعال",
                 vfx_p1: "بالاعتماد على After Effects ومنصات التخطيط البصري المتقدمة، أصمم رسوميات حركية حسابية، ومصفوفات تتبع، وتكوينات مكانية متكاملة.",
